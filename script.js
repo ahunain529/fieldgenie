@@ -92,6 +92,6 @@ chatbotCloseBtn.addEventListener("click",() => document.body.classList.remove("s
 chatbotToggler.addEventListener("click",() => document.body.classList.toggle("show-chatbot"));
 document.getElementById('submit').addEventListener('click', function() {
     alert('Are you sure you want to log out?');
-    window.location.href = "login.html"; // Redirect to login page after confirmation
+    window.location.href = "index.html"; // Redirect to login page after confirmation
   });
   
