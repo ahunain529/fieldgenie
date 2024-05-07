@@ -264,10 +264,9 @@ body {
 
 .btni {
     position: fixed;
-    right: 10px;
     top: 10px;
     /* width: 100%; */
-    height: 45px;
+    height: 50px;
     display: inline-block;
     background: white;
     border: 2px solid white;
@@ -285,6 +284,31 @@ body {
 .btni:hover{
     background: transparent;
     color: white;
+}
+
+button {
+    
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  button:focus {
+    outline: none;
+  }
+  
+  
+  button:active {
+    background-color: #3e8e41;
 }
 @media(max-width: 490px){
     .chatbot {
